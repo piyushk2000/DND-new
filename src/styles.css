@@ -1,0 +1,9 @@
+/* Convert to Tailwind CSS */
+
+.drag-overlay {
+    @apply absolute top-0 left-0 z-50 w-full pointer-events-none bg-mainBackgroundColor;
+}
+
+.drag-overlay .ColumnContainer {
+    @apply shadow-lg border border-accentColor;
+}
